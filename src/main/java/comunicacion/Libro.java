@@ -15,11 +15,11 @@ public class Libro extends Escrito {
 		this.interpretacion = interpretacion;
 	}
 	
-	public String getCoautor() {
+	public String getCo_autor() {
 		return this.co_autor;
 	}
 	
-	public void setCoautor(String co_autor) {
+	public void setCo_autor(String co_autor) {
 		this.co_autor = co_autor;
 	}
 	
@@ -64,7 +64,7 @@ public class Libro extends Escrito {
 				this.getTitulo() + '\n' + 
 				this.getAutor() + '\n' +
 				this.getPaginas() + '\n' +
-				this.getCoautor() + '\n' +
+				this.getCo_autor() + '\n' +
 				this.getEditorial() + '\n' +
 				this.getEdicion();
 	}
